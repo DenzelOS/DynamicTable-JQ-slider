@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.form-container {
+    margin-right: 20px;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 20px;
+    text-align: center;
+}
+
+
+table th:first-child {
+    background-color: #4CAF50;
+}
+
+tr:nth-child(even) td:nth-child(odd) {
+    background-color: #f2f2f2; /* Light grey color for odd cells in even rows */
+}
+
+tr:nth-child(odd) td:nth-child(odd) {
+    background-color: #d9d9d9; /* Darker grey color for odd cells in odd rows */
+}
+
+/* jQuery UI Slider */
+.ui-slider {
+    margin: 10px 0;
+}
+
+/* jQuery UI Tabs */
+#tabs {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#tabs ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#tabs ul li {
+    display: inline;
+    margin-right: 5px;
+}
+
+#tabs ul li a {
+    padding: 5px 10px;
+    background: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px 5px 0 0;
+}
+
+#tabs ul li a:hover {
+    background: #45a049;
+}
+
+#tabs .ui-tabs-panel {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background: white;
+    border-radius: 0 5px 5px 5px;
+}
+
+#tabs .ui-icon-close {
+    float: right;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.ui-widget-content {
+    border: none;
+}
+
+.ui-tabs-active a {
+    background: #45a049;
+}
